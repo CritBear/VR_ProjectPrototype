@@ -7,6 +7,8 @@ TagManager:
   - Ignite
   - key
   - lock
+  - CabinetKey
+  - Grab Ignore Ray
   layers:
   - Default
   - TransparentFX
