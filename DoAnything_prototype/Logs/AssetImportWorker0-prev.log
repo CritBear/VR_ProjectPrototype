@@ -1,90 +1,90 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro for Workstations; OS build 19042.1415; Version 2009; 64bit' Language: 'ko' Physical Memory: 16303 MB
+OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'ko' Physical Memory: 16307 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\2020.3.17f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.17f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/원격강좌/3학년 2학기/VR/VR_ProjectPrototype/DoAnything_prototype
+C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-7661
-Successfully changed project path to: D:/원격강좌/3학년 2학기/VR/VR_ProjectPrototype/DoAnything_prototype
-D:/원격강좌/3학년 2학기/VR/VR_ProjectPrototype/DoAnything_prototype
+57385
+Successfully changed project path to: C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype
+C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.95 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 1.38 ms.
+Refreshing native plugins compatible for Editor in 75.83 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.82 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
-[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/원격강좌/3학년 2학기/VR/VR_ProjectPrototype/DoAnything_prototype/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   30.0.14.7168
+    VRAM:     12143 MB
+    Driver:   30.0.14.7247
 Initialize mono
-Mono path[0] = 'C:/Program Files/2020.3.17f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003497 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003341 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 88.92 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 54.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.253 seconds
+- Completed reload, in  1.270 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2253ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (539ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (305ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (92ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (214ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (135ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (48ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007315 seconds.
+Registered in 0.011174 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 92.49 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 58.03 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.644 seconds
+- Completed reload, in  1.051 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1645ms)
-		BeginReloadAssembly (163ms)
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1402ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
+			SetupTypeCache (226ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (662ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (435ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (425ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (1ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3981 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 183.4 MB.
-System memory in use after: 183.6 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3982 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.1 MB.
+System memory in use after: 224.3 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4437.
-Total: 6.762400 ms (FindLiveObjects: 0.449400 ms CreateObjectMapping: 0.281900 ms MarkObjects: 5.937300 ms  DeleteObjects: 0.092200 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4438.
+Total: 2.954000 ms (FindLiveObjects: 0.278800 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.508100 ms  DeleteObjects: 0.067500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -152,198 +152,56 @@ AssetImportParameters requested are different than current active one (requested
 Received Import Request.
   path: Assets/XRRig.prefab
   artifactKey: Guid(102584d81dff70d4db095e21c2fcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRRig.prefab using Guid(102584d81dff70d4db095e21c2fcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f7b43c0841348917952c3d68ed5179') in 0.302284 seconds 
-  Import took 0.309622 seconds .
+Start importing Assets/XRRig.prefab using Guid(102584d81dff70d4db095e21c2fcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ff0bd1208683a326d32d3568bf630e') in 0.191381 seconds 
+  Import took 0.196297 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(3ba1d07eed67b0049afc97a6f49a209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(3ba1d07eed67b0049afc97a6f49a209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be112690acf745afcd5c12cee5a8f719') in 0.004755 seconds 
+  Import took 0.008283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
   path: Assets/InputSystem.inputsettings.asset
   artifactKey: Guid(c73b900e4bace6d4db2eee9dbcce6484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem.inputsettings.asset using Guid(c73b900e4bace6d4db2eee9dbcce6484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fd1cb9cbd19f37c9e2a0eefbb76f3c') in 0.011816 seconds 
-  Import took 0.018636 seconds .
+Start importing Assets/InputSystem.inputsettings.asset using Guid(c73b900e4bace6d4db2eee9dbcce6484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4105ddeb7ea385d51e03e74abaf884') in 0.003113 seconds 
+  Import took 0.006513 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
+  Time since last request: 0.000092 seconds.
   path: Assets/XR_UniversalRenderPipelineAsset_Renderer.asset
   artifactKey: Guid(73784d4e7f2839a46b7d48dd835aeafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR_UniversalRenderPipelineAsset_Renderer.asset using Guid(73784d4e7f2839a46b7d48dd835aeafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e743474dfc67c665d079a7083efa4cd6') in 0.007541 seconds 
-  Import took 0.015613 seconds .
+Start importing Assets/XR_UniversalRenderPipelineAsset_Renderer.asset using Guid(73784d4e7f2839a46b7d48dd835aeafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa082920ee4e3a3a09e725eef8888132') in 0.003031 seconds 
+  Import took 0.006301 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
+  Time since last request: 0.000102 seconds.
   path: Assets/XR_UniversalRenderPipelineAsset.asset
   artifactKey: Guid(1e7d5d04ae750c7448e387f3e1aa2342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR_UniversalRenderPipelineAsset.asset using Guid(1e7d5d04ae750c7448e387f3e1aa2342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2705828f84f3dcd8cd492df1628056b0') in 0.006943 seconds 
-  Import took 0.014325 seconds .
+Start importing Assets/XR_UniversalRenderPipelineAsset.asset using Guid(1e7d5d04ae750c7448e387f3e1aa2342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939673e69dfa7866f91492843edcb590') in 0.003344 seconds 
+  Import took 0.006876 seconds .
 
 ========================================================================
 Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
 Registering precompiled user dll's ...
-Registered in 0.007301 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1349ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (1124ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (348ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.63 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 3808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.8 MB.
-System memory in use after: 192.0 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4485.
-Total: 4.137700 ms (FindLiveObjects: 0.354500 ms CreateObjectMapping: 0.174600 ms MarkObjects: 3.580300 ms  DeleteObjects: 0.027200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 692.206419 seconds.
-  path: Assets/VibrationManager.cs
-  artifactKey: Guid(9e9969d29aec10847a1c61a7b6466bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VibrationManager.cs using Guid(9e9969d29aec10847a1c61a7b6466bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4abd950b7ac931db7eda5f649b91ef5') in 0.031972 seconds 
-  Import took 0.041147 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010368 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.488 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1488ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1259ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (488ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (138ms)
-				ProcessInitializeOnLoadAttributes (319ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.9 MB.
-System memory in use after: 192.1 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4489.
-Total: 4.078300 ms (FindLiveObjects: 0.415800 ms CreateObjectMapping: 0.291300 ms MarkObjects: 3.337000 ms  DeleteObjects: 0.033000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007154 seconds.
+Registered in 0.013638 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Preloading 1 native plugins for Editor in 0.13 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -357,43 +215,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.332 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1332ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1140ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (821ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (453ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (357ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.06 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 191.9 MB.
-System memory in use after: 192.2 MB.
+System memory in use before: 187.7 MB.
+System memory in use after: 187.9 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4492.
-Total: 4.246500 ms (FindLiveObjects: 0.432100 ms CreateObjectMapping: 0.192800 ms MarkObjects: 3.593200 ms  DeleteObjects: 0.027400 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4486.
+Total: 2.926600 ms (FindLiveObjects: 0.289300 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.521200 ms  DeleteObjects: 0.018600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -408,31 +266,1083 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 98.001573 seconds.
-  path: Assets/VibrationManager.cs
-  artifactKey: Guid(9e9969d29aec10847a1c61a7b6466bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VibrationManager.cs using Guid(9e9969d29aec10847a1c61a7b6466bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101bdf33f7098df6d9e5f5a59e9146a7') in 0.009182 seconds 
-  Import took 0.016316 seconds .
+  Time since last request: 1899.957485 seconds.
+  path: Assets/asset_store/Safe/Safe.3ds
+  artifactKey: Guid(b9c6a1f6fd42fe74483ee288f925034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Safe/Safe.3ds using Guid(b9c6a1f6fd42fe74483ee288f925034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20f071d0db39d591f9491ef0720dce1') in 0.193852 seconds 
+  Import took 0.199357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.435588 seconds.
-  path: Assets/XRRig.prefab
-  artifactKey: Guid(102584d81dff70d4db095e21c2fcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRRig.prefab using Guid(102584d81dff70d4db095e21c2fcda29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2006fe2cdfbd1ee21e6463ebb9b95acc') in 0.230086 seconds 
-  Import took 0.236677 seconds .
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/Safe/tex
+  artifactKey: Guid(f6dc2af76aeec3d4aa1f5947a96ef530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Safe/tex using Guid(f6dc2af76aeec3d4aa1f5947a96ef530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226b948eebdde2258a11e9d63dd58856') in 0.001992 seconds 
+  Import took 0.005247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/asset_store/Safe/Safe.obj
+  artifactKey: Guid(91e94b8e47ebf4641a2e6f9d419c1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Safe/Safe.obj using Guid(91e94b8e47ebf4641a2e6f9d419c1234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fe557c0618fed82135ab5bd5bc684b') in 0.140968 seconds 
+  Import took 0.145216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/asset_store/Safe
+  artifactKey: Guid(ba8669da20db7e049a9dde4834f29b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Safe using Guid(ba8669da20db7e049a9dde4834f29b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a87833e146ae52d52da63d0174a829') in 0.001978 seconds 
+  Import took 0.005377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/asset_store/Safe/Safe.fbx
+  artifactKey: Guid(4e3513dd5ce66e24ab58a2068ec9a37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Safe/Safe.fbx using Guid(4e3513dd5ce66e24ab58a2068ec9a37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485d9ef297b92abdd581118ae440e47a') in 0.052137 seconds 
+  Import took 0.055996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/asset_store/Safe/tex/safe-lock-markers.tif
+  artifactKey: Guid(fec5156b7b0f167418f7f7a3753042b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Safe/tex/safe-lock-markers.tif using Guid(fec5156b7b0f167418f7f7a3753042b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36c9c0a13478cbdfed868e0a558910b') in 0.014075 seconds 
+  Import took 0.018070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.443471 seconds.
+  path: Assets/VR Beginner/VFX/Cauldron/CauldronBubbles.vfx
+  artifactKey: Guid(e78d084f89fcb484f8d893f530aa7401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Cauldron/CauldronBubbles.vfx using Guid(e78d084f89fcb484f8d893f530aa7401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d91d5bc789f4f673fe84fcdcb74115c') in 0.005611 seconds 
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Cabinet3.fbx
+  artifactKey: Guid(008bbf9059279de4d9dd225076b5ef12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Cabinet3.fbx using Guid(008bbf9059279de4d9dd225076b5ef12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c83294919e2b5621ede809b1d17c805') in 0.014290 seconds 
+  Import took 0.018458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2-D1.fbx
+  artifactKey: Guid(362c03d27673da046be40c2f5a4a0364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2-D1.fbx using Guid(362c03d27673da046be40c2f5a4a0364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28be4ac1efaccfe986344eabc37d03bb') in 0.014257 seconds 
+  Import took 0.018525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet2-D3.prefab
+  artifactKey: Guid(18885d429affbd7498082ba10490547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet2-D3.prefab using Guid(18885d429affbd7498082ba10490547b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd111a13ad998be06f63b2ebc22109b02') in 0.008541 seconds 
+  Import took 0.012908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/VR Beginner/VFX/Smoke & Fire/SmokeBurstBad.vfx
+  artifactKey: Guid(c47f5e470e3746c4a8a6bfb7725560f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Smoke & Fire/SmokeBurstBad.vfx using Guid(c47f5e470e3746c4a8a6bfb7725560f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352e797a27a6c4f76a89a0d739145a30') in 0.003168 seconds 
+  Import took 0.006831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D5.prefab
+  artifactKey: Guid(e4c5b57f1658c1148936781faf76268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D5.prefab using Guid(e4c5b57f1658c1148936781faf76268c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bb1eef6210b9192baffd5541ae0f3c') in 0.009416 seconds 
+  Import took 0.013652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D5.fbx
+  artifactKey: Guid(7cf435a4ba317da4594ea488cb96306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D5.fbx using Guid(7cf435a4ba317da4594ea488cb96306b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aabdd1d185012735470d3834ecf8c46') in 0.012551 seconds 
+  Import took 0.016559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D2.prefab
+  artifactKey: Guid(9191bf78387a82e4fb707844e03c6b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D2.prefab using Guid(9191bf78387a82e4fb707844e03c6b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63545bdb49e79859b7a5dd875bbc7311') in 0.008448 seconds 
+  Import took 0.012677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/VR Beginner/VFX/Potions/PotionPop.vfx
+  artifactKey: Guid(4ca8490dc0acba948b3413109060d4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Potions/PotionPop.vfx using Guid(4ca8490dc0acba948b3413109060d4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bae8ed0918efc7702139be555a0b9c') in 0.004623 seconds 
+  Import took 0.008433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Cabinet2.prefab
+  artifactKey: Guid(a8c05189a2c370943b6d4162a18a95ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Cabinet2.prefab using Guid(a8c05189a2c370943b6d4162a18a95ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbfcfaa5e0c6694c87d860a8e623dcd') in 0.008481 seconds 
+  Import took 0.012820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D1.fbx
+  artifactKey: Guid(8cf28e65d83729648919ce04eaa9f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D1.fbx using Guid(8cf28e65d83729648919ce04eaa9f7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da245ab11261db0762b53c43d040094') in 0.013976 seconds 
+  Import took 0.018823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D4.fbx
+  artifactKey: Guid(6e99d962d109d7b41ba14f7c965154af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D4.fbx using Guid(6e99d962d109d7b41ba14f7c965154af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08661ac22e215f15750209674177a363') in 0.014070 seconds 
+  Import took 0.018658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2-D2.fbx
+  artifactKey: Guid(fb853f4c5d68e9d47ae507086ce636fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2-D2.fbx using Guid(fb853f4c5d68e9d47ae507086ce636fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04716b34f943543bdd9d90f30471c98a') in 0.014183 seconds 
+  Import took 0.018739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Cabinet3.prefab
+  artifactKey: Guid(a60af9d4af1e8344cb4b32732cd542ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Cabinet3.prefab using Guid(a60af9d4af1e8344cb4b32732cd542ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e86e88519260e0da049e24ab2ea4050') in 0.007968 seconds 
+  Import took 0.011821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D4.prefab
+  artifactKey: Guid(4dc180b48b11c1a4eafd9f0a7418b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D4.prefab using Guid(4dc180b48b11c1a4eafd9f0a7418b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a81b3c58e31b5c7b3eb82bca35e7a9') in 0.008233 seconds 
+  Import took 0.012457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D6.prefab
+  artifactKey: Guid(a064d057aec0e0947b6d87d3a98d7118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D6.prefab using Guid(a064d057aec0e0947b6d87d3a98d7118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113f6ceb88ddde5226b1765e7f4bc2a6') in 0.008245 seconds 
+  Import took 0.012142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2.fbx
+  artifactKey: Guid(295517148c756ff45abbf00fc1cc2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2.fbx using Guid(295517148c756ff45abbf00fc1cc2c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db9cf4abe9a76f3a1f519afef7682d4') in 0.027345 seconds 
+  Import took 0.031404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Cabinet2.fbx
+  artifactKey: Guid(3d3a9b7ee2f038a4ba751b8c798247e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Cabinet2.fbx using Guid(3d3a9b7ee2f038a4ba751b8c798247e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9193ac29f9768bca79ed2f8fe141757') in 0.012925 seconds 
+  Import took 0.017668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1.fbx
+  artifactKey: Guid(a4fedeb4f03d9a244bfa3c9157637d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1.fbx using Guid(a4fedeb4f03d9a244bfa3c9157637d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f78d5ea16be3fcf0ec83d426ac3fb5') in 0.041114 seconds 
+  Import took 0.045704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/VR Beginner/VFX/Cauldron/CauldronSplash.vfx
+  artifactKey: Guid(1105defcb56acf948bc9bcb11c2d159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Cauldron/CauldronSplash.vfx using Guid(1105defcb56acf948bc9bcb11c2d159b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f22ca2499c2b53ea47b8689300aa423') in 0.003457 seconds 
+  Import took 0.006970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet2-D1.prefab
+  artifactKey: Guid(68da834222e0b2a40bc4dfef8ed7781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet2-D1.prefab using Guid(68da834222e0b2a40bc4dfef8ed7781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068ae699ebde38f4eab2580c083400a') in 0.008711 seconds 
+  Import took 0.013017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Cabinet2.prefab
+  artifactKey: Guid(4ff9bd62cd3d6764a96cb4fe11d27c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Cabinet2.prefab using Guid(4ff9bd62cd3d6764a96cb4fe11d27c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8fb79aa741ae1e33497c1b29587a46') in 0.169420 seconds 
+  Import took 0.173975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D3.fbx
+  artifactKey: Guid(aee29a0bd94d05c448e67f05c4276b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D3.fbx using Guid(aee29a0bd94d05c448e67f05c4276b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545e43eea5ad17a1ae26885ee0245c5b') in 0.012923 seconds 
+  Import took 0.017855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Cabinet1.prefab
+  artifactKey: Guid(a98587cbc1bc4db4e8a2530785da2a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Cabinet1.prefab using Guid(a98587cbc1bc4db4e8a2530785da2a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e777d55bf246a14d2ccb3f3b44cbb7') in 0.008179 seconds 
+  Import took 0.012257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/VR Beginner/VFX/Smoke & Fire/FireSmokeBurst.vfx
+  artifactKey: Guid(c2837b63d7a967441bfd796e05b15f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Smoke & Fire/FireSmokeBurst.vfx using Guid(c2837b63d7a967441bfd796e05b15f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc04046d32243d98e69920511c90cb9') in 0.003215 seconds 
+  Import took 0.006758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D1.prefab
+  artifactKey: Guid(ea471cbf55783f64bb9eff22c02f45bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D1.prefab using Guid(ea471cbf55783f64bb9eff22c02f45bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465eec10669862f1c0eeaace95eae0b6') in 0.008394 seconds 
+  Import took 0.012439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2-D3.fbx
+  artifactKey: Guid(73885cefc3c82394d91db5d31c897236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet2-D3.fbx using Guid(73885cefc3c82394d91db5d31c897236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd55dc493bb02319b4bfb00c6ae939d4') in 0.013058 seconds 
+  Import took 0.017460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Cabinet3.prefab
+  artifactKey: Guid(fa752e8f641803b42b29c6db2bb470e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Cabinet3.prefab using Guid(fa752e8f641803b42b29c6db2bb470e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4abca4d72074875433c6e680e2ec56') in 0.008795 seconds 
+  Import took 0.013668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet2-D2.prefab
+  artifactKey: Guid(162c7aba8b7defe468a3e2af14d43d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet2-D2.prefab using Guid(162c7aba8b7defe468a3e2af14d43d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d40438911f1a4cae4ef58db55db356b') in 0.007778 seconds 
+  Import took 0.012194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet3-D1.prefab
+  artifactKey: Guid(b6f24bbb037bb9d4e91a7c24757b35ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet3-D1.prefab using Guid(b6f24bbb037bb9d4e91a7c24757b35ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2401083924261bf410aea28883c5e000') in 0.008531 seconds 
+  Import took 0.013018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet3-D1.fbx
+  artifactKey: Guid(5dd1d3505dbefc640adb578a74d0fbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet3-D1.fbx using Guid(5dd1d3505dbefc640adb578a74d0fbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830be8f0371700b14d3461024068098') in 0.014954 seconds 
+  Import took 0.019420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Cabinet1.prefab
+  artifactKey: Guid(08d164588375dbe429244ec7fb756aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Cabinet1.prefab using Guid(08d164588375dbe429244ec7fb756aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968920b8dd15b837710df6ede16d6780') in 0.008493 seconds 
+  Import took 0.012663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet3.fbx
+  artifactKey: Guid(6fef99e51c349474d80e25ae32297150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet3.fbx using Guid(6fef99e51c349474d80e25ae32297150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0605fa292ebc42ff6506da9bf4aff775') in 0.028156 seconds 
+  Import took 0.032531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D2.fbx
+  artifactKey: Guid(8afdb0554faa50842b69f1c3b550dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D2.fbx using Guid(8afdb0554faa50842b69f1c3b550dec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b88f07eaf2b3c8b1ee165077e40334') in 0.012379 seconds 
+  Import took 0.016663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VR Beginner/VFX/Smoke & Fire/SmokeBurst.vfx
+  artifactKey: Guid(25ad7cb45fc73244782fc2d9300e3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/VFX/Smoke & Fire/SmokeBurst.vfx using Guid(25ad7cb45fc73244782fc2d9300e3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60ff56b01f8c2f33fbbc872fde8d886') in 0.003106 seconds 
+  Import took 0.007291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D6.fbx
+  artifactKey: Guid(6cb9b927035c6134fa351f6060ec9ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Animation Ready/Cabinet1-D6.fbx using Guid(6cb9b927035c6134fa351f6060ec9ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcc2d26b572aac0a459ce42186745ca') in 0.012835 seconds 
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D3.prefab
+  artifactKey: Guid(c7847885a6948124985c341eec1f22da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Prefabs/Animation Ready/Drawers/Cabinet1-D3.prefab using Guid(c7847885a6948124985c341eec1f22da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ad110ac1362434acd22e8ece920623') in 0.008182 seconds 
+  Import took 0.012756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Cabinet1.fbx
+  artifactKey: Guid(d9107513779d27f4cb988c9bd62db193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Alstrainfinite/KitchenCabinets/Models/Cabinet1.fbx using Guid(d9107513779d27f4cb988c9bd62db193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de7eec3252939a06a39ac9820fa1d9a') in 0.013629 seconds 
+  Import took 0.018205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.273521 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.tga
+  artifactKey: Guid(b40ffba02b740d0449a254f7d2eb87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.tga using Guid(b40ffba02b740d0449a254f7d2eb87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e37e75f7b4bf978b9c4acad0a68070') in 0.038167 seconds 
+  Import took 0.043253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD2through.prefab
+  artifactKey: Guid(7efb7a11251ce1342b172668cbdc65c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD2through.prefab using Guid(7efb7a11251ce1342b172668cbdc65c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83364bf19d356f645320ce3264c830c') in 0.036448 seconds 
+  Import took 0.040745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v3.tga
+  artifactKey: Guid(2b5271b70faa82948a2f1b3e45d5c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v3.tga using Guid(2b5271b70faa82948a2f1b3e45d5c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0c797d5dd63156b7f44ca3663e3d5c') in 0.031756 seconds 
+  Import took 0.036283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat
+  artifactKey: Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat using Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5541ea0af4739a3425c37828cb18a02e') in 0.046656 seconds 
+  Import took 0.051038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1close.prefab
+  artifactKey: Guid(84147b87204d0a0478bae9558d656ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1close.prefab using Guid(84147b87204d0a0478bae9558d656ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fc1ce2a7ab2acb1d0039af10573405') in 0.034206 seconds 
+  Import took 0.038624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v3.mat
+  artifactKey: Guid(bb0d1d0eb18293f4a8d2ded5e4ee4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v3.mat using Guid(bb0d1d0eb18293f4a8d2ded5e4ee4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1200e7faf9fa40505851f463a5a26236') in 0.033746 seconds 
+  Import took 0.038205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD2close.prefab
+  artifactKey: Guid(58d97d456aead63499ac7d5316541f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD2close.prefab using Guid(58d97d456aead63499ac7d5316541f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab5ee84200df908e55a396712b8cf8d') in 0.034290 seconds 
+  Import took 0.038582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.mat
+  artifactKey: Guid(725065c3e256d624785aad798a8d0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.mat using Guid(725065c3e256d624785aad798a8d0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8097686a6d7a40d16e6f4e1590275e46') in 0.034252 seconds 
+  Import took 0.038559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/VR Beginner/Models/Carpet.fbx
+  artifactKey: Guid(379d0e8bcb7263044ba0fbca05d6a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Models/Carpet.fbx using Guid(379d0e8bcb7263044ba0fbca05d6a5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f74e55a0bb5adf470baf4cd17bed650') in 0.035820 seconds 
+  Import took 0.040520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/VR Beginner/Models/Scarf.fbx
+  artifactKey: Guid(8b5162e08e7f2b64a85fce24dc8e6abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VR Beginner/Models/Scarf.fbx using Guid(8b5162e08e7f2b64a85fce24dc8e6abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed2066e568b2823592d00a81016d770') in 0.026026 seconds 
+  Import took 0.030766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1open.prefab
+  artifactKey: Guid(75e99e987b1c5aa48b7b9e465f768fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1open.prefab using Guid(75e99e987b1c5aa48b7b9e465f768fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b586427de6e71c855b49d31bc666167a') in 0.034180 seconds 
+  Import took 0.038702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1through.prefab
+  artifactKey: Guid(9615d776614809e4890301d5377aeb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1through.prefab using Guid(9615d776614809e4890301d5377aeb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b3d81be6b4b900e0e3db5ebc702875') in 0.035688 seconds 
+  Import took 0.040526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.FBX
+  artifactKey: Guid(856f086268c2c1b4f8f1d4b9bc614217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.FBX using Guid(856f086268c2c1b4f8f1d4b9bc614217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d12505277b7900e7d25ab7d59f5c7ab') in 0.054911 seconds 
+  Import took 0.059021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD2open.prefab
+  artifactKey: Guid(c2028b62d7877e04194d5001429cff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD2open.prefab using Guid(c2028b62d7877e04194d5001429cff6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94da568a5ea551f614eeecb6905ff1') in 0.036438 seconds 
+  Import took 0.040827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.tga
+  artifactKey: Guid(0d05f81e33820aa4a8a400b8b8b696d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.tga using Guid(0d05f81e33820aa4a8a400b8b8b696d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c550353dc2d62441c1cc7f7d4716919') in 0.033230 seconds 
+  Import took 0.037424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.psd
+  artifactKey: Guid(9a40ce69ff8bdec4faf3fd3418956f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.psd using Guid(9a40ce69ff8bdec4faf3fd3418956f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c02f61183eff95c870b8b2c738cf3f') in 0.033734 seconds 
+  Import took 0.037890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1doorL.prefab
+  artifactKey: Guid(39d44540e05010d4b93511df0bd6e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1doorL.prefab using Guid(39d44540e05010d4b93511df0bd6e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706294ccb953c05e4ca21f320a99b70') in 0.033108 seconds 
+  Import took 0.037651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1doorR.prefab
+  artifactKey: Guid(bd78ceace8eb93d42a9ee0bde8dbc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1doorR.prefab using Guid(bd78ceace8eb93d42a9ee0bde8dbc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b343180caa52be4c423c5d2973dccfc') in 0.039340 seconds 
+  Import took 0.043800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1doorL.prefab
+  artifactKey: Guid(39d44540e05010d4b93511df0bd6e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Cargo_container_v1_LD1doorL.prefab using Guid(39d44540e05010d4b93511df0bd6e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706294ccb953c05e4ca21f320a99b70') in 0.034161 seconds 
+  Import took 0.038502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.347304 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_Blue.prefab
+  artifactKey: Guid(65a6a0a7aec3ead479b8e48f074c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_Blue.prefab using Guid(65a6a0a7aec3ead479b8e48f074c4b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958cb01452599eedf75b76ddf6080ccd') in 0.144517 seconds 
+  Import took 0.150084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat
+  artifactKey: Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat using Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae00cd07340d9c1fdba6391f652ec2b') in 0.015430 seconds 
+  Import took 0.020386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_Blue_D.tga
+  artifactKey: Guid(9dc5390ced9999b42840fa1c409b29b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_Blue_D.tga using Guid(9dc5390ced9999b42840fa1c409b29b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f393633fd1114f1bd830a4f860f7efb0') in 0.035466 seconds 
+  Import took 0.040234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.FBX
+  artifactKey: Guid(8bf7537d27999d4448c4145cad1f47e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.FBX using Guid(8bf7537d27999d4448c4145cad1f47e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aab3cc520d24177abf35396af12f43') in 0.017389 seconds 
+  Import took 0.022237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_White_D.tga
+  artifactKey: Guid(fb180a873c2b82247a7f262702d448ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_White_D.tga using Guid(fb180a873c2b82247a7f262702d448ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397ee176be1f0c716c127a146398d4d5') in 0.032083 seconds 
+  Import took 0.036546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_White_N.tga
+  artifactKey: Guid(4860ab9d6965c954ca48364c30ccbd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_White_N.tga using Guid(4860ab9d6965c954ca48364c30ccbd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8b9687050a4914bd0ec210ffb2bae8') in 0.034144 seconds 
+  Import took 0.038415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.FBX
+  artifactKey: Guid(ffd14148582c4f84f867ad56a7b3dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.FBX using Guid(ffd14148582c4f84f867ad56a7b3dafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee062f3447b5283a7801b3d2ff4189a8') in 0.023802 seconds 
+  Import took 0.027973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD2.prefab
+  artifactKey: Guid(17002e90aebb00b40a69cf6fe9083dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD2.prefab using Guid(17002e90aebb00b40a69cf6fe9083dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eebe4f26057741b3ceddea475b96935') in 0.015609 seconds 
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_Red_N.tga
+  artifactKey: Guid(facef091f06c78743848db01c736a172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_Red_N.tga using Guid(facef091f06c78743848db01c736a172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bafa895e17f5f229f83aadb07598c5f') in 0.033393 seconds 
+  Import took 0.037741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_quadro.prefab
+  artifactKey: Guid(efaf0e3818a9ab240983b51198f0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_quadro.prefab using Guid(efaf0e3818a9ab240983b51198f0a77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93334e55f53cf8bb99f55425d6709bbe') in 0.015888 seconds 
+  Import took 0.020239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Materials/Barrel_White.mat
+  artifactKey: Guid(1cb528e2fa2554f4d98ed307a92f6872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Materials/Barrel_White.mat using Guid(1cb528e2fa2554f4d98ed307a92f6872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088f92bfce972b18a107121553520435') in 0.145762 seconds 
+  Import took 0.151177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_Red_D.tga
+  artifactKey: Guid(70d6066cdcfe4da4f934e6d3606ccdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_Red_D.tga using Guid(70d6066cdcfe4da4f934e6d3606ccdd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98d7c61f747847f3425f8f231e6305d') in 0.034571 seconds 
+  Import took 0.038942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.FBX
+  artifactKey: Guid(3693ef6778a2a2942b1a7b3f2e10c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.FBX using Guid(3693ef6778a2a2942b1a7b3f2e10c297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34abd0e6276798f66b5876ec89195b89') in 0.018504 seconds 
+  Import took 0.022659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_white_M.tga
+  artifactKey: Guid(e47bf6045d870214089de7b4a7b69659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_white_M.tga using Guid(e47bf6045d870214089de7b4a7b69659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb580ae602c34378b7dfa901ddfa4a7') in 0.039463 seconds 
+  Import took 0.043646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_Plastic.prefab
+  artifactKey: Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_Plastic.prefab using Guid(99ccec2645722c547832b04a89fce1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4676ad4d500abb85b2ff8d7b8c74772') in 0.126136 seconds 
+  Import took 0.130855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_plastic_N.tga
+  artifactKey: Guid(a6f578cf5b8c7e44eb3b15a2d558bbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_plastic_N.tga using Guid(a6f578cf5b8c7e44eb3b15a2d558bbdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc0c16ff253e1650bdd1338884c9bb6') in 0.032029 seconds 
+  Import took 0.036679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Barrel_v3_single.prefab
+  artifactKey: Guid(a62abbb708e3f49489bde29e5cfc3ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Barrel_v3_single.prefab using Guid(a62abbb708e3f49489bde29e5cfc3ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3712fb86475da84fed782ee7d53e7b1') in 0.015880 seconds 
+  Import took 0.021173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.tga
+  artifactKey: Guid(ab642a6f4431c294dad548240c4df51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.tga using Guid(ab642a6f4431c294dad548240c4df51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840aa3882e7901bcc489a4c173375fbb') in 0.014262 seconds 
+  Import took 0.018781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_plastic_M.tga
+  artifactKey: Guid(29203bc226aea54458ef11cec406eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_plastic_M.tga using Guid(29203bc226aea54458ef11cec406eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bb946452555188a7d9c1f4ab2302cc') in 0.038611 seconds 
+  Import took 0.043286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Barrel_v3_quadro.prefab
+  artifactKey: Guid(9732a241b7bd0fa4a8e59553d6d8a2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Barrel_v3_quadro.prefab using Guid(9732a241b7bd0fa4a8e59553d6d8a2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96527459a65e536ca539f1d4edba86a5') in 0.014798 seconds 
+  Import took 0.019121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.tga
+  artifactKey: Guid(c6d4a352c819c824b9aa19a3a9b428d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.tga using Guid(c6d4a352c819c824b9aa19a3a9b428d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5422307d8d221997e482c1f703d4c5') in 0.013581 seconds 
+  Import took 0.018475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Materials/Barrel_Red.mat
+  artifactKey: Guid(aebc0cba189a51142b8cf7edc09a2351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Materials/Barrel_Red.mat using Guid(aebc0cba189a51142b8cf7edc09a2351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c481757ef7f24d10332367273e9dc97f') in 0.126956 seconds 
+  Import took 0.131844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_Red.prefab
+  artifactKey: Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_Red.prefab using Guid(dfec7a4606336714296c349586c1ff31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67425f3df4c55d56264be9551bafe85') in 0.128963 seconds 
+  Import took 0.134269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_Red_M.tga
+  artifactKey: Guid(0183c0274dd209d4cbd489e3bd201557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_Red_M.tga using Guid(0183c0274dd209d4cbd489e3bd201557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c14c32997ffd88c472d753a73446e76') in 0.038335 seconds 
+  Import took 0.043172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Materials/Barrel_Blue_D.mat
+  artifactKey: Guid(a20a80a9790682547b2331523455ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Materials/Barrel_Blue_D.mat using Guid(a20a80a9790682547b2331523455ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cc6ef01d3079c3efcf2b6969a06b5e') in 0.124963 seconds 
+  Import took 0.130090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.mat
+  artifactKey: Guid(cd2f24c07b1bce24fa0066430da2910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Source/Barrel_v2.mat using Guid(cd2f24c07b1bce24fa0066430da2910b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef75b0c3adce57543a9e1a84e763b64f') in 0.015438 seconds 
+  Import took 0.020494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Materials/Barrel_Blue_D.mat
+  artifactKey: Guid(a20a80a9790682547b2331523455ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Materials/Barrel_Blue_D.mat using Guid(a20a80a9790682547b2331523455ab36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cc6ef01d3079c3efcf2b6969a06b5e') in 0.123478 seconds 
+  Import took 0.128704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_single.prefab
+  artifactKey: Guid(ddf0187b9b9cef54bab5c9c49969758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v2/Barrel_v2_single.prefab using Guid(ddf0187b9b9cef54bab5c9c49969758a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae661888d8e1cb305da63828894cb08') in 0.015585 seconds 
+  Import took 0.020440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_plastic_D.tga
+  artifactKey: Guid(a16f5242b12c2f64897bc64b4d88a0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_plastic_D.tga using Guid(a16f5242b12c2f64897bc64b4d88a0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d5dc8810351b0a69a01c8eb6cea492') in 0.032225 seconds 
+  Import took 0.037089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_occlusion.bmp
+  artifactKey: Guid(8fd0bc131c5e81e498f6b98cd2a9a0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_occlusion.bmp using Guid(8fd0bc131c5e81e498f6b98cd2a9a0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5fe87971f48ba877076da83c359f05') in 0.051280 seconds 
+  Import took 0.055508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_Blue_M.tga
+  artifactKey: Guid(44b27bd6ba3aa8740b79d476664cbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_Blue_M.tga using Guid(44b27bd6ba3aa8740b79d476664cbe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fe0ef2abd9d308aa42275040d05792') in 0.037223 seconds 
+  Import took 0.041224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+  artifactKey: Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat using Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f23f3af015e23e6ebe67414f00bdd8') in 0.014852 seconds 
+  Import took 0.018990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Materials/Barrel_Plastic.mat
+  artifactKey: Guid(e2c403b006e7414489f9b0f23a508263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Materials/Barrel_Plastic.mat using Guid(e2c403b006e7414489f9b0f23a508263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4983886d0e7a39c012d7b42137928a75') in 0.124958 seconds 
+  Import took 0.129746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Textures/Barrel_Blue_N.tga
+  artifactKey: Guid(d94867dae561fd94c8e4ad87da780051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Textures/Barrel_Blue_N.tga using Guid(d94867dae561fd94c8e4ad87da780051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c02d55c4f7c95a1206092d5d1df4b19') in 0.032536 seconds 
+  Import took 0.037374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD3.prefab
+  artifactKey: Guid(85a8f6f8dca77df4e9c05f21b5e8ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD3.prefab using Guid(85a8f6f8dca77df4e9c05f21b5e8ed87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e8b4ea10c454c33c6163199d9eb3bf') in 0.017757 seconds 
+  Import took 0.022081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Models/Barrel_Group.fbx
+  artifactKey: Guid(cae4a2b3a6a7f4546be73c381e26f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Models/Barrel_Group.fbx using Guid(cae4a2b3a6a7f4546be73c381e26f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558ab36cf3cff9e6f60dcbcd5faf752f') in 0.139328 seconds 
+  Import took 0.143852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_White.prefab
+  artifactKey: Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/VertexField/Barrels/Prefabs/Barrel_White.prefab using Guid(d0dca0f3b53c4374180d9f31128b7fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d63c324146b3b2327c2d2192006d4ee') in 0.125713 seconds 
+  Import took 0.130468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD1.prefab
+  artifactKey: Guid(a22c0c7e17126fa4f89534dc98bcac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Barrel_v1_LD1.prefab using Guid(a22c0c7e17126fa4f89534dc98bcac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59031c5b8eb3baa892744b411cfa52c4') in 0.014946 seconds 
+  Import took 0.019382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.tga
+  artifactKey: Guid(d432d54d3a70da442896cc2f394cd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.tga using Guid(d432d54d3a70da442896cc2f394cd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffea502df47d62dc1d61c0995abafce') in 0.012505 seconds 
+  Import took 0.016761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.301069 seconds.
+  path: Assets/asset_store/AdventureForge/Texture
+  artifactKey: Guid(ecf2df94bbccb6746aaa6e9ac7c670e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture using Guid(ecf2df94bbccb6746aaa6e9ac7c670e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de36de29f72dada3268ec1f9df5befae') in 0.002023 seconds 
+  Import took 0.006645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.734732 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves
+  artifactKey: Guid(c6aa76425fa34774780bc729328732a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves using Guid(c6aa76425fa34774780bc729328732a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36587329c5f258245c9ea6f9c6bd6657') in 0.002089 seconds 
+  Import took 0.006508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.451109 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01
+  artifactKey: Guid(47ba238ecb7f5ca4ea22a857fa667571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01 using Guid(47ba238ecb7f5ca4ea22a857fa667571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d438094b9462643ec85bd6d9d5617ae') in 0.002045 seconds 
+  Import took 0.006521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.459432 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed
+  artifactKey: Guid(5484166ad9ce74645bb3f740f3d8748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed using Guid(5484166ad9ce74645bb3f740f3d8748e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8088ee6b41bdd5b3f86a15c0707e91f') in 0.002082 seconds 
+  Import took 0.006612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506019 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512
+  artifactKey: Guid(6f39bb9baf6845f4bb3a1f7b7d0ddca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512 using Guid(6f39bb9baf6845f4bb3a1f7b7d0ddca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45aaed94403de3cc755c5ff75090ca6c') in 0.002070 seconds 
+  Import took 0.006633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060718 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_Albedo.tif
+  artifactKey: Guid(d5b58cd381e5f8e41a9583449adbf5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_Albedo.tif using Guid(d5b58cd381e5f8e41a9583449adbf5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7af1aaef405417ff0d3dd4280d67e2') in 0.008212 seconds 
+  Import took 0.012905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_Albedo.tif
+  artifactKey: Guid(6553f8f463768e0468d1f8b359ea36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_Albedo.tif using Guid(6553f8f463768e0468d1f8b359ea36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9950112a9ded8c634c7dd1dca646935') in 0.007520 seconds 
+  Import took 0.011468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDoorsMA_CleanRed_Normal.tif
+  artifactKey: Guid(e49928512d1039a408fb70eb07039a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDoorsMA_CleanRed_Normal.tif using Guid(e49928512d1039a408fb70eb07039a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae505e4d36a408c01780fcfccbf1f79') in 0.008045 seconds 
+  Import took 0.011923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_AO.tif
+  artifactKey: Guid(dd2fa68e06d1d1f44b9ab553b7f55745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_AO.tif using Guid(dd2fa68e06d1d1f44b9ab553b7f55745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d2afed6e605308c06a932a56f2786d') in 0.007561 seconds 
+  Import took 0.011663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetSupportMA_CleanRed_Albedo.tif
+  artifactKey: Guid(1b83e372a61a66e44baff3853b82e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetSupportMA_CleanRed_Albedo.tif using Guid(1b83e372a61a66e44baff3853b82e98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3aab5f7c073dcd8fd94bcd0c31fa3b') in 0.008205 seconds 
+  Import took 0.012047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetSupportMA_CleanRed_MetallicSmoothness2.tif
+  artifactKey: Guid(7b222e40aae28934489f0bf335c9be18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetSupportMA_CleanRed_MetallicSmoothness2.tif using Guid(7b222e40aae28934489f0bf335c9be18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc418e5731253b06e8852bc6b5268f3') in 0.008484 seconds 
+  Import took 0.012646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_MetallicSmoothness2.tif
+  artifactKey: Guid(6c3c7282ce30c1246aceac0364dc282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_MetallicSmoothness2.tif using Guid(6c3c7282ce30c1246aceac0364dc282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173948fc5d8c63bf5f0f4036f24beeed') in 0.008483 seconds 
+  Import took 0.012488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_MetallicSmoothness2.tif
+  artifactKey: Guid(5da79ca230433c94c919aee65593a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_MetallicSmoothness2.tif using Guid(5da79ca230433c94c919aee65593a98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92fcfde85f9a5397340ff48d581b6f4') in 0.008504 seconds 
+  Import took 0.012402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_Normal.tif
+  artifactKey: Guid(8fd9c11ab142d79448b7b3822490ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_Normal.tif using Guid(8fd9c11ab142d79448b7b3822490ba54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78048adb619fff383be03f5b2368cec8') in 0.008067 seconds 
+  Import took 0.011952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_AO.tif
+  artifactKey: Guid(117f4f3b79f41e645bff1183c4aa607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_AO.tif using Guid(117f4f3b79f41e645bff1183c4aa607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e97dcd8651290b761dca0f9ae7855c8') in 0.008629 seconds 
+  Import took 0.012487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_Normal.tif
+  artifactKey: Guid(f9fb46b39b4e59a44969738a3e5f013b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_Normal.tif using Guid(f9fb46b39b4e59a44969738a3e5f013b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f909f68a3fbbd4c94a419c8bdf491cb') in 0.007531 seconds 
+  Import took 0.011333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDoorsMA_CleanRed_Albedo.tif
+  artifactKey: Guid(e7640d6ba13fb9d4dbcdd24c4179f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDoorsMA_CleanRed_Albedo.tif using Guid(e7640d6ba13fb9d4dbcdd24c4179f41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40bb0951bf7ee1c85bf47443811ccc39') in 0.007762 seconds 
+  Import took 0.011554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_MetallicSmoothness2.tif
+  artifactKey: Guid(94867e091c081484dbe3984ea795f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_MetallicSmoothness2.tif using Guid(94867e091c081484dbe3984ea795f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b09383a074f037ba519e1aef0472bce') in 0.008230 seconds 
+  Import took 0.012103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_Normal.tif
+  artifactKey: Guid(c0c134e303e768b45ab6afe3d2ac86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_Normal.tif using Guid(c0c134e303e768b45ab6afe3d2ac86c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7df2188c0aa6b31a08b4bef676bfd9d') in 0.008321 seconds 
+  Import took 0.012323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_Albedo.tif
+  artifactKey: Guid(aaa518bedea9184428262a87981206b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_Albedo.tif using Guid(aaa518bedea9184428262a87981206b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e806ebe8b129cf7408836f16e5ede44f') in 0.007495 seconds 
+  Import took 0.011344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_Normal.tif
+  artifactKey: Guid(91fa8db1f1610424980fda201f5c2ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_Normal.tif using Guid(91fa8db1f1610424980fda201f5c2ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38062ec0b9889df141086cdc96853472') in 0.007461 seconds 
+  Import took 0.011440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDoorsMA_CleanRed_MetallicSmoothness2.tif
+  artifactKey: Guid(8b1b7fe5597cd144aa500716bf9bb98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetDoorsMA_CleanRed_MetallicSmoothness2.tif using Guid(8b1b7fe5597cd144aa500716bf9bb98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad67ec447efed495a4646e7d130a1bea') in 0.007631 seconds 
+  Import took 0.011333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_Normal.tif
+  artifactKey: Guid(91fa8db1f1610424980fda201f5c2ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabientCornersupportMA_CleanRed_Normal.tif using Guid(91fa8db1f1610424980fda201f5c2ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38062ec0b9889df141086cdc96853472') in 0.007633 seconds 
+  Import took 0.011835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_Emission.tif
+  artifactKey: Guid(93315e64501f29a42afc03467736212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_Emission.tif using Guid(93315e64501f29a42afc03467736212d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7766158b0dc9c7589c431b1786c9ca59') in 0.008520 seconds 
+  Import took 0.012352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_AO.tif
+  artifactKey: Guid(a45479bd09737804dba7fe806a6d1a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetBodyMA_CleanRed_AO.tif using Guid(a45479bd09737804dba7fe806a6d1a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d1ebfa9b1a1b7719e682aecf924f00') in 0.007579 seconds 
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_Albedo.tif
+  artifactKey: Guid(d4d5fcf6be67f7a4f94ba200cd5b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetHandlesMA_CleanRed_Albedo.tif using Guid(d4d5fcf6be67f7a4f94ba200cd5b930c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38665b40e2ed3b852cade9e507ac7830') in 0.007577 seconds 
+  Import took 0.011212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetSupportMA_CleanRed_Normal.tif
+  artifactKey: Guid(6dd50c4a95df66240be9b0662a91bf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MetalCabinetSupportMA_CleanRed_Normal.tif using Guid(6dd50c4a95df66240be9b0662a91bf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66d1395a49c0a61aeea555a9342e711') in 0.007701 seconds 
+  Import took 0.011452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_MetallicSmoothness2.tif
+  artifactKey: Guid(53de428af038e2e49b98c19b2390c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/AdventureForge/Texture/Industrial Cabinets and Shelves/MetalCabinet01/CleanRed/512/MatalCabinetShelfMA_CleanRed_MetallicSmoothness2.tif using Guid(53de428af038e2e49b98c19b2390c114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a26dc873a723200eb627f19fc273a1') in 0.007923 seconds 
+  Import took 0.012663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.272339 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.002000 seconds 
+  Import took 0.006537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.176649 seconds.
+  path: Assets/Safe.mat
+  artifactKey: Guid(7ea75d3d39705b249b672ceabb9cfe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Safe.mat using Guid(7ea75d3d39705b249b672ceabb9cfe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edcd7269d72cf0b6ee73d4a81b180b1') in 0.007619 seconds 
+  Import took 0.012524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.664781 seconds.
+  path: Assets/Safe.mat
+  artifactKey: Guid(7ea75d3d39705b249b672ceabb9cfe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Safe.mat using Guid(7ea75d3d39705b249b672ceabb9cfe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d6c47597364fe81964c556843f7060') in 0.007425 seconds 
+  Import took 0.012623 seconds .
 
 ========================================================================
 Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
 Registering precompiled user dll's ...
-Registered in 0.007532 seconds.
+Registered in 0.011850 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Preloading 1 native plugins for Editor in 0.13 ms.
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004e] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in <fe0cae7ba39a4d89a0720be01fa0d04f>:0 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -446,43 +1356,274 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.457 seconds
+- Completed reload, in  0.998 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1457ms)
-		BeginReloadAssembly (139ms)
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1254ms)
-			LoadAssemblies (111ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (475ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 192.1 MB.
-System memory in use after: 192.3 MB.
+System memory in use before: 189.2 MB.
+System memory in use after: 189.5 MB.
 
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4531.
-Total: 4.342700 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.224900 ms MarkObjects: 3.718400 ms  DeleteObjects: 0.031500 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4563.
+Total: 3.795100 ms (FindLiveObjects: 0.403600 ms CreateObjectMapping: 0.099100 ms MarkObjects: 3.268600 ms  DeleteObjects: 0.022800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.012012 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1002ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (830ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4566.
+Total: 2.952900 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.096700 ms MarkObjects: 2.538200 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.011808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4569.
+Total: 3.241700 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.166500 ms MarkObjects: 2.701000 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.011432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.3 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4572.
+Total: 2.965800 ms (FindLiveObjects: 0.323800 ms CreateObjectMapping: 0.089800 ms MarkObjects: 2.532700 ms  DeleteObjects: 0.018800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
