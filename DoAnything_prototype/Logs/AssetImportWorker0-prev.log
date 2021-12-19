@@ -15,7 +15,7 @@ C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61644
+61130
 Successfully changed project path to: C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype
 C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype
 Using Asset Import Pipeline V2.
@@ -23,8 +23,8 @@ Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D f
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 73.33 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.82 ms.
+Refreshing native plugins compatible for Editor in 74.58 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.78 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/VR_ProjectPrototype/DoAnything_prototype/Assets
@@ -39,56 +39,56 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003610 seconds.
+Registered in 0.003426 seconds.
 Native extension for WindowsStandalone target not found
 Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 57.12 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 56.81 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
+- Completed reload, in  1.256 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1221ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (1257ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (309ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (311ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (137ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (138ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (57ms)
 				BeforeProcessingInitializeOnLoad (11ms)
 				ProcessInitializeOnLoadAttributes (48ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011819 seconds.
+Registered in 0.011653 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 
-Refreshing native plugins compatible for Editor in 61.90 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 59.61 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -110,29 +110,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.058 seconds
+- Completed reload, in  1.045 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1059ms)
+	ReloadAssembly (1045ms)
 		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (439ms)
+			SetupLoadedEditorAssemblies (432ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Please note that FBX files exported from Cinema4D are still supported.
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.93 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3984 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 226.1 MB.
-System memory in use after: 226.3 MB.
+Unloading 3982 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 181.2 MB.
+System memory in use after: 181.4 MB.
 
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4444.
-Total: 3.206400 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.099700 ms MarkObjects: 2.697900 ms  DeleteObjects: 0.084900 ms)
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4438.
+Total: 3.088900 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.104700 ms MarkObjects: 2.639200 ms  DeleteObjects: 0.068600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -170,41 +170,645 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Assets_showcase_scene.unity
-  artifactKey: Guid(a8f7c31154bcc5e409be7f1bb14f0b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Assets_showcase_scene.unity using Guid(a8f7c31154bcc5e409be7f1bb14f0b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d7ead2005db91b701d3b6087d75beb') in 0.013738 seconds 
-  Import took 0.018280 seconds .
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue.mat
+  artifactKey: Guid(78c32258da693ea4b9d49edc7c07c48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue.mat using Guid(78c32258da693ea4b9d49edc7c07c48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebf934041b1ed31ddb0399967572562') in 0.311893 seconds 
+  Import took 0.317019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue.mat
+  artifactKey: Guid(a02e6f6ccc4eb3b46be714e0af6ddc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue.mat using Guid(a02e6f6ccc4eb3b46be714e0af6ddc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3709c7c69c00abb83c3c6c7fac921cce') in 0.085870 seconds 
+  Import took 0.090659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_basecolor.png
+  artifactKey: Guid(58b2aee450f335d4da30d44a24cbd483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_basecolor.png using Guid(58b2aee450f335d4da30d44a24cbd483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195211e230ab5c2d95bb78d5328eeb36') in 0.060930 seconds 
+  Import took 0.065569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Models/PlasticTable.fbx
+  artifactKey: Guid(ece52d4daa96e654ea30febf0b1e9b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Models/PlasticTable.fbx using Guid(ece52d4daa96e654ea30febf0b1e9b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdd349224b5a7358911bf3094427ba0') in 0.044721 seconds 
+  Import took 0.049314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Models/PlasticChair.fbx
+  artifactKey: Guid(5be44b40398667d4fba1062c30851480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Models/PlasticChair.fbx using Guid(5be44b40398667d4fba1062c30851480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca45736c1afbaf5cceae2977e553fb0') in 0.010240 seconds 
+  Import took 0.014334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue.mat
+  artifactKey: Guid(484282be8afa41e4f864581dfd5eb0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue.mat using Guid(484282be8afa41e4f864581dfd5eb0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5da97d663d48b1774b3b550c6baf4d') in 0.081806 seconds 
+  Import took 0.086199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_roughness.png
+  artifactKey: Guid(b73cfddc89bfefb4ba26e991c59bbfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_roughness.png using Guid(b73cfddc89bfefb4ba26e991c59bbfe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe08dd4b1c0b082f4790904c175133e') in 0.030756 seconds 
+  Import took 0.034711 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000123 seconds.
-  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Map_v1.unity
-  artifactKey: Guid(5a463281e6e238742a45430f11e82829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Map_v1.unity using Guid(5a463281e6e238742a45430f11e82829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7e130808d7804e21d913bd4d0e60a3') in 0.002122 seconds 
-  Import took 0.005341 seconds .
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue_basecolor.png
+  artifactKey: Guid(6f7260cb9d0077444996e615e0f2ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue_basecolor.png using Guid(6f7260cb9d0077444996e615e0f2ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98080d766ca331cc9b9f6b4c10678ba') in 0.032940 seconds 
+  Import took 0.037006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.631004 seconds.
-  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat
-  artifactKey: Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat using Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4f9f1930867711cc19862414de93bb') in 0.184802 seconds 
-  Import took 0.190213 seconds .
+  Time since last request: 0.000126 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite.mat
+  artifactKey: Guid(f93a7a9f019e7e6429b16245b4a2e743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite.mat using Guid(f93a7a9f019e7e6429b16245b4a2e743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd50fc4be6347b0f69895fa6f6fe014a') in 0.083986 seconds 
+  Import took 0.088685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.840040 seconds.
-  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1
-  artifactKey: Guid(39b83d874c3678840b01acb353418114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1 using Guid(39b83d874c3678840b01acb353418114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6434e0a777b4e59bd64648d7393c8ff5') in 0.001900 seconds 
-  Import took 0.006287 seconds .
+  Time since last request: 0.000134 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_basecolor.png
+  artifactKey: Guid(c707551513c30b348bdabf9be32a207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_basecolor.png using Guid(c707551513c30b348bdabf9be32a207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6812673d26bb2d5dea877d389dad8840') in 0.031154 seconds 
+  Import took 0.035277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 105.542956 seconds.
-  path: Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1
-  artifactKey: Guid(39b83d874c3678840b01acb353418114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/asset_store/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1 using Guid(39b83d874c3678840b01acb353418114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69349e50c712c1de0aedb3c0fee7281b') in 0.001964 seconds 
-  Import took 0.006786 seconds .
+  Time since last request: 0.000138 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite_basecolor.png
+  artifactKey: Guid(e40a2ca74adfb534fbe42e3951f07427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite_basecolor.png using Guid(e40a2ca74adfb534fbe42e3951f07427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2e01624f44f408af53748d4967a25b') in 0.030074 seconds 
+  Import took 0.034521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_normal.png
+  artifactKey: Guid(7b429e2a827590d4b99c1a63745ace9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_normal.png using Guid(7b429e2a827590d4b99c1a63745ace9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07eac152c5eca642df7d96bc65b27b6') in 0.031004 seconds 
+  Import took 0.035379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_basecolor.png
+  artifactKey: Guid(4a9f32d064c681640a3bc5462f46f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_basecolor.png using Guid(4a9f32d064c681640a3bc5462f46f615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30fc2285db9fd8ef74dc349a79d1fd2') in 0.030906 seconds 
+  Import took 0.034948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed.mat
+  artifactKey: Guid(401a05873ab630f4d978c6420b886fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed.mat using Guid(401a05873ab630f4d978c6420b886fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372356d98bf6664bfb8450d1c3af2997') in 0.081833 seconds 
+  Import took 0.086425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_roughness.png
+  artifactKey: Guid(eadfd9f1cf38b1e41873aa4680fff16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_roughness.png using Guid(eadfd9f1cf38b1e41873aa4680fff16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01540b476447c5ebbb144e381b60793') in 0.030415 seconds 
+  Import took 0.034366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_normal.png
+  artifactKey: Guid(d3c199b182b1c7749841bca4cd959553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanRed_normal.png using Guid(d3c199b182b1c7749841bca4cd959553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa128a95852b56980f44f48b6bd6231') in 0.029891 seconds 
+  Import took 0.033779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldRed.mat
+  artifactKey: Guid(382f13c7ccbb2474e9ade9669329ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldRed.mat using Guid(382f13c7ccbb2474e9ade9669329ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7533edc81fa30962dd1370d5ae6aa078') in 0.087774 seconds 
+  Import took 0.092219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite_normal.png
+  artifactKey: Guid(af0df36f6e23c4142a166e309a86d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite_normal.png using Guid(af0df36f6e23c4142a166e309a86d568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad139a528557ff97d8f19f9b28378520') in 0.031877 seconds 
+  Import took 0.036031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Prefabs/Regular
+  artifactKey: Guid(c4ea034f47cf67746b9d8276b177cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Prefabs/Regular using Guid(c4ea034f47cf67746b9d8276b177cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d24edee156b059677a18e15f8adc5a') in 0.001972 seconds 
+  Import took 0.005086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue_roughness.png
+  artifactKey: Guid(c0387db7881caeb45a00e3d185e6fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue_roughness.png using Guid(c0387db7881caeb45a00e3d185e6fce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86f3c6c255f7f326e361f28c04767d2') in 0.030581 seconds 
+  Import took 0.034888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite_roughness.png
+  artifactKey: Guid(4b5a4569eb867a44295899dd620aadc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanWhite_roughness.png using Guid(4b5a4569eb867a44295899dd620aadc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38e9f179024edd2cdfe761082b4abef') in 0.031382 seconds 
+  Import took 0.035525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_roughness.png
+  artifactKey: Guid(a8abcd874c4f4c844bac78c2722928f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairOldBlue_roughness.png using Guid(a8abcd874c4f4c844bac78c2722928f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c202ff9b2817bce83c36fc68fce69a1') in 0.030831 seconds 
+  Import took 0.035214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Prefabs/Old
+  artifactKey: Guid(9421dcd99824a8845896fe47da3f422f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Prefabs/Old using Guid(9421dcd99824a8845896fe47da3f422f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0c491a0296260dfde5343930cbf00d') in 0.002068 seconds 
+  Import took 0.005865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Prefabs
+  artifactKey: Guid(14e0b73e44d89d849820a6ebf9a2fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Prefabs using Guid(14e0b73e44d89d849820a6ebf9a2fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b58d1968b7b64cadf7be5fc1303d4d8') in 0.001939 seconds 
+  Import took 0.005250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue_normal.png
+  artifactKey: Guid(bb6f62e2d9d455f49bb23877a14a2735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairCleanBlue_normal.png using Guid(bb6f62e2d9d455f49bb23877a14a2735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3436e929ba2127a7df8771604ac290') in 0.031002 seconds 
+  Import took 0.034839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_normal.png
+  artifactKey: Guid(e5e291c994aa1bd47be8d6259cfdc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Materials/PlasticChairBlue_normal.png using Guid(e5e291c994aa1bd47be8d6259cfdc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d3aeacdb0a4818ab78d9d7b1667ffb') in 0.031443 seconds 
+  Import took 0.035332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.729128 seconds.
+  path: Assets/asset_store/SpaceZeta_PlasticChairTableSet/Showcase.unity
+  artifactKey: Guid(469d65179f48c7f4dba08deafff414a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/SpaceZeta_PlasticChairTableSet/Showcase.unity using Guid(469d65179f48c7f4dba08deafff414a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24915e2edaa29f3ac0ab46868de3220') in 0.002447 seconds 
+  Import took 0.007217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.895498 seconds.
+  path: Assets/MyScenes/Tutorial2.unity
+  artifactKey: Guid(0a5da0ac042ef4042848aeea6c2197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/Tutorial2.unity using Guid(0a5da0ac042ef4042848aeea6c2197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8081c926feaf55de92422e3bb811f3fa') in 0.002395 seconds 
+  Import took 0.006805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.906806 seconds.
+  path: Assets/Houdini_Rope_tool/HE_Rope_Tool.hda
+  artifactKey: Guid(2c8cb533d882fe146b0a21fb010534df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Houdini_Rope_tool/HE_Rope_Tool.hda using Guid(2c8cb533d882fe146b0a21fb010534df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8198b0a70bd9a364264db43c35c1b299') in 0.005172 seconds 
+  Import took 0.010043 seconds .
+
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.014159 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (826ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.8 MB.
+System memory in use after: 189.0 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4529.
+Total: 3.080600 ms (FindLiveObjects: 0.288200 ms CreateObjectMapping: 0.113500 ms MarkObjects: 2.659100 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.661819 seconds.
+  path: Assets/Real-Time Procedural Cable Simple/ExampleScene
+  artifactKey: Guid(2b0006d104c7d2645a42ba85414be71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real-Time Procedural Cable Simple/ExampleScene using Guid(2b0006d104c7d2645a42ba85414be71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ca9f79a7644734cd3d6b812f63ca54') in 0.006031 seconds 
+  Import took 0.011453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.598958 seconds.
+  path: Assets/Real-Time Procedural Cable Simple/ExampleScene/Example_Scene.unity
+  artifactKey: Guid(d8dac6bcb8025a344b074f8b2a89c625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Real-Time Procedural Cable Simple/ExampleScene/Example_Scene.unity using Guid(d8dac6bcb8025a344b074f8b2a89c625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618d4154b7c0a6ac384055efc903fe0f') in 0.015859 seconds 
+  Import took 0.020583 seconds .
+
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.012037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1022ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.8 MB.
+System memory in use after: 189.0 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4528.
+Total: 3.138500 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.116700 ms MarkObjects: 2.710400 ms  DeleteObjects: 0.021000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91.446833 seconds.
+  path: Assets/MyScenes/Tutorial2.unity
+  artifactKey: Guid(0a5da0ac042ef4042848aeea6c2197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/Tutorial2.unity using Guid(0a5da0ac042ef4042848aeea6c2197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5b88fd0537c98168f0c9d2f81c70e') in 0.011184 seconds 
+  Import took 0.016665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000869 seconds.
+  path: Assets/MyScenes/Tutorial2.unity
+  artifactKey: Guid(0a5da0ac042ef4042848aeea6c2197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScenes/Tutorial2.unity using Guid(0a5da0ac042ef4042848aeea6c2197ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5b88fd0537c98168f0c9d2f81c70e') in 0.002095 seconds 
+  Import took 0.005786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.424786 seconds.
+  path: Assets/10594_Jump_Rope_SG_v1_L3.obj
+  artifactKey: Guid(515f862216e47aa4384d27e627fde0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/10594_Jump_Rope_SG_v1_L3.obj using Guid(515f862216e47aa4384d27e627fde0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c5448b76d032dbd74e32b3f67a705a') in 0.123612 seconds 
+  Import took 0.129011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.211519 seconds.
+  path: Assets/10594_Jump_Rope_SG_v1_L3.mtl
+  artifactKey: Guid(2b2d8250de9d71244bc1cb58bf7c3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/10594_Jump_Rope_SG_v1_L3.mtl using Guid(2b2d8250de9d71244bc1cb58bf7c3d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9628de3447acb6be9b3bb9db1cced496') in 0.003553 seconds 
+  Import took 0.008169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.076763 seconds.
+  path: Assets/asset_store/Jump_Rope_SG_v2_L3.123cfe25fe31-4cc4-4c2d-9c8c-91598aba026e
+  artifactKey: Guid(d1932478715fb7e45b5bc7106e98da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Jump_Rope_SG_v2_L3.123cfe25fe31-4cc4-4c2d-9c8c-91598aba026e using Guid(d1932478715fb7e45b5bc7106e98da28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b353fd4d5fd17eb268b72bbd0dd756e') in 0.002922 seconds 
+  Import took 0.008513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049934 seconds.
+  path: Assets/asset_store/Jump_Rope_SG_v2_L3.123cfe25fe31-4cc4-4c2d-9c8c-91598aba026e/10594_Jump_Rope_SG_v1_diffuse.jpg
+  artifactKey: Guid(d1b4f0c53a76b3340bf8db59bebe67fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Jump_Rope_SG_v2_L3.123cfe25fe31-4cc4-4c2d-9c8c-91598aba026e/10594_Jump_Rope_SG_v1_diffuse.jpg using Guid(d1b4f0c53a76b3340bf8db59bebe67fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b90c6249af687b13279dad99ceb260b') in 0.018053 seconds 
+  Import took 0.022628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/asset_store/Jump_Rope_SG_v2_L3.123cfe25fe31-4cc4-4c2d-9c8c-91598aba026e/10594_Jump_Rope_SG_v1_L3.obj
+  artifactKey: Guid(721318be291dfec4d893e7496f15bee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/asset_store/Jump_Rope_SG_v2_L3.123cfe25fe31-4cc4-4c2d-9c8c-91598aba026e/10594_Jump_Rope_SG_v1_L3.obj using Guid(721318be291dfec4d893e7496f15bee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594786d25b430a4a81136b8381113513') in 0.023959 seconds 
+  Import took 0.027899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.183207 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(9f5aeef9030edcc43bc00d7dcf1834e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameManager.cs using Guid(9f5aeef9030edcc43bc00d7dcf1834e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03621b98eff0cf0e1e275f5123df71d9') in 0.008007 seconds 
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(9f5aeef9030edcc43bc00d7dcf1834e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameManager.cs using Guid(9f5aeef9030edcc43bc00d7dcf1834e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03621b98eff0cf0e1e275f5123df71d9') in 0.002123 seconds 
+  Import took 0.006083 seconds .
+
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.013112 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4568.
+Total: 3.137300 ms (FindLiveObjects: 0.340200 ms CreateObjectMapping: 0.111200 ms MarkObjects: 2.667600 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/asset_store/Safe/Safe.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+
+Registering precompiled user dll's ...
+Registered in 0.011165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\GitHub\VR_ProjectPrototype\DoAnything_prototype\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <d0e4b8c1204147f3935b6e9c8b8565ad>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (872ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(536870912) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.0 MB.
+System memory in use after: 189.3 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4571.
+Total: 3.345400 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.820900 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 663.301701 seconds.
+  path: Assets/제목 없음.png
+  artifactKey: Guid(c26b2c60e1c8aca4e832c41fa4b4ef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/제목 없음.png using Guid(c26b2c60e1c8aca4e832c41fa4b4ef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee70956da1932b50eb8e5c2d42ac46d') in 0.060129 seconds 
+  Import took 0.067023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.632858 seconds.
+  path: Assets/제목 없음.png
+  artifactKey: Guid(c26b2c60e1c8aca4e832c41fa4b4ef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/제목 없음.png using Guid(c26b2c60e1c8aca4e832c41fa4b4ef65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df84a220e38c61af6f4f952e80a4b73') in 0.024871 seconds 
+  Import took 0.029953 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

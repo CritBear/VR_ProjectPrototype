@@ -9,7 +9,6 @@ TagManager:
   - lock
   - CabinetKey
   - Grab Ignore Ray
-  - UV
   layers:
   - Default
   - TransparentFX
@@ -18,7 +17,7 @@ TagManager:
   - Water
   - UI
   - 
-  - Cabinet
+  - 
   - Grabbable
   - Hands
   - Teleporter
