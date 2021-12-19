@@ -7,6 +7,7 @@ public class FuseBox : MonoBehaviour
     public ParticleSystem[] SparkleFuseVFX;
     public ParticleSystem[] SwitchedOnVFX;
     public ParticleSystem[] SwitchedOffVFX;
+    public WarehouseDoorController DoorController;
     
     bool m_FusePresent = false;
 
@@ -24,6 +25,7 @@ public class FuseBox : MonoBehaviour
         }
         else
         {
+            DoorController.DoorActivated();
             foreach (var s in SwitchedOnVFX)
             {
                 s.Play();
