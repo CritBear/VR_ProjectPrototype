@@ -43,6 +43,7 @@ public class VibrationRenderer : MonoBehaviour
     public void StopCheckTrajectory()
     {
         StopAllCoroutines();
+        //StopCoroutine(StartPeriodicHaptics());
     }
 
     IEnumerator StartPeriodicHaptics()
@@ -52,7 +53,7 @@ public class VibrationRenderer : MonoBehaviour
             closestPoint = coll.ClosestPoint(manager.RightController.transform.position);
             float distance = Vector3.Distance(closestPoint, manager.RightController.transform.position);
             if(distance > Radius) {
-                SendHaptics(Mathf.Clamp(MinAmplitude + (distance - Radius) * 10, MinAmplitude, MaxAmplitude));
+                SendHaptics(Mathf.Clamp(MinAmplitude + (distance - Radius), MinAmplitude, MaxAmplitude));
             }
             yield return delay;
         }
